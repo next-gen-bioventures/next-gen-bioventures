@@ -27,7 +27,18 @@
     --near-black: #0D1117;
   }
   html { scroll-behavior: smooth; }
-  body { font-family: 'DM Sans', sans-serif; font-size: 16px; color: var(--body-dark); background: var(--white); line-height: 1.65; overflow-x: hidden; }
+  body { <!-- GLOBAL FONT -->
+<style>
+  body {
+    font-family: Arial, "Times New Roman", sans-serif;
+    font-size: 16px;
+    color: var(--body-dark);
+    background: var(--white);
+    line-height: 1.65;
+    overflow-x: hidden;
+  }
+</style>
+ }
 
   /* NAVBAR */
   .navbar {
@@ -563,7 +574,7 @@
       <div class="founder-content">
         <div class="section-label">Meet the Founder</div>
         <h2>Deepa Mohan Poojary</h2>
-        <div class="founder-title">MSc Biotechnology · Proteomics Researcher · Educator</div>
+        <div class="founder-title">Founder</div>
         <p class="founder-bio">
           Deepa built NextGen BioVentures from the ground up — as a researcher who felt the gap between biological training and computational tools firsthand. After completing her MSc in Biotechnology with a focus on proteomics, she set out to create the resource she wished she'd had: clear, practical, researcher-validated guidance for life scientists entering computation.
         </p>
@@ -625,6 +636,20 @@
     </div>
   </div>
 </section>
+     <!-- New team member -->
+          <div class="team-card">
+            <div class="team-avatar">
+              <img src="images/sapre.jpg" alt="Dr. Siddhesh Uday Sapre">
+            </div>
+            <h3>Dr. Siddhesh Uday Sapre</h3>
+            <div class="team-role">Scientific Co-Collaborator, Virology & Data-Driven Biology</div>
+            <p class="team-bio">
+              Dr. Siddhesh Uday Sapre is a highly skilled Infection Biologist with over seven years of research experience in virology, host-pathogen interactions, and BSL-3 laboratory operations. He earned his Ph.D. in Human Biology from the Institute of Virology in Marburg, Germany. Recognizing that the future of life sciences is data-driven, Dr. Sapre integrates traditional experimental virology with advanced bioinformatics approaches. He develops custom open-source Python applications, such as the BioSeq Toolkit, and utilizes Next-Generation Sequencing (NGS) data analysis to derive actionable biological insights. As a collaborative partner at NextGen BioVentures, he leverages his deep understanding of infectious diseases to build impactful computational solutions. Fully equipped for dynamic collaborations, Dr. Sapre is actively available for international and on-site initiatives to advance the global TechBio ecosystem.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
 <!-- SESSIONS CONDUCTED -->
 <section id="sessions" class="section" style="background: var(--navy);">
